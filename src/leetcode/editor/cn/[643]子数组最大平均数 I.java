@@ -1,4 +1,4 @@
-//给定 n 个整数，找出平均数最大且长度为 k 的连续子数组，并输出该最大平均数。 
+package leetcode.editor.cn;//给定 n 个整数，找出平均数最大且长度为 k 的连续子数组，并输出该最大平均数。
 //
 // 
 //
@@ -25,7 +25,7 @@
 import java.util.Arrays;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution643 {
     public double findMaxAverage(int[] nums, int k) {
 
         int maxSum = 0;
